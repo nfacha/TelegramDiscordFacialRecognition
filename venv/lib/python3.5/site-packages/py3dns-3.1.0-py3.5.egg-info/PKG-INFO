@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: py3dns
+Version: 3.1.0
+Summary: Python 3 DNS library
+Home-page: https://launchpad.net/py3dns
+Author: Scott Kitterman
+Author-email: scott@kitterman.com
+License: Python License
+Description: Python 3 DNS library:
+        
+Keywords: DNS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python License (CNRI Python License)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

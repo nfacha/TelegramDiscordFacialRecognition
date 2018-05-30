@@ -1,0 +1,5 @@
+six
+cffi>=1.1.0
+
+[tests]
+pytest
