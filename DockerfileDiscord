@@ -1,5 +1,5 @@
 FROM avnergoncalves/ubuntu-python3.5
-RUN apt-get update && apt-get install cmake -y
+RUN apt-get update && apt-get install cmake python3-pip -y
 WORKDIR /root/bot
 RUN pip3 install requests
 RUN pip3 install discord.py
