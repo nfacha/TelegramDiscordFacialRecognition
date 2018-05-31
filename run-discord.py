@@ -8,8 +8,6 @@ import requests
 from discord import Client
 from tqdm import tqdm
 
-import Utils
-
 client = discord.Client()  # type: Client
 
 
