@@ -5,4 +5,4 @@ RUN pip3 install requests
 RUN pip3 install discord.py
 RUN pip3 install face_recognition
 COPY . /root/bot
-CMD python3 run-docker.py
+CMD python3 run-discord.py
