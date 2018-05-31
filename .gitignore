@@ -4,3 +4,9 @@
 *.pyc
 
 tmp/
+
+keys\.txt
+
+known-person/
+
+test-images/

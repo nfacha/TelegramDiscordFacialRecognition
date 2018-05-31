@@ -1,0 +1,8 @@
+FROM fnndsc/ubuntu-python3
+RUN apt-get update && apt-get install cmake -y
+COPY . /root/bot
+WORKDIR /root/bot
+RUN pip3 install requests
+RUN pip3 install python-telegram-bot --upgrade
+RUN pip3 install face_recognition
+CMD python3 run-telegram.py
