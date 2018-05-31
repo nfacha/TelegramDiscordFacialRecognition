@@ -5,7 +5,7 @@ This script runs over docker
  1. Clone the repository
  2. Enter the directory
  3. Build the desired image, either `docker build . -f DockerfileTelegram -t witb-Telegram` or `docker build . -f DockerfileDiscord -t witb-Discord`
- 4 `docker run -e "api-key=529959023:AAEPH-WXIvBwxbq3sXBTa58tAsA5ou3IEZE" -v "known-person:/root/bot/known-person/ "-t witb-Telegram`
+ 4 `docker run -e apikey="529959023:AAEPH-WXIvBwxbq3sXBTa58tAsA5ou3IEZE" -v "known-person:/root/bot/known-person/" -t witb-telegram`
 
 
 # Required Docker ENV Vars

@@ -75,4 +75,5 @@ async def on_message(message):
 
 
 print("Aye Aye, spinning up DISCORD bot")
-client.run(os.getenv("api-key"))
+print("TOKEN= "+os.getenv("apikey"))
+client.run(os.getenv("apikey"))

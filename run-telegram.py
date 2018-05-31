@@ -25,7 +25,7 @@ def init():
     if sys.version_info[0] < 3:
         print("Python3 is required!")
         sys.exit(0)
-    updater = Updater(os.getenv("api-key"))
+    updater = Updater(os.getenv("apikey"))
 
     dp = updater.dispatcher
     dp.add_error_handler(error)
@@ -40,7 +40,6 @@ def execute(bot, update):
     :type bot: telegram.bot.Bot
     """
     message = update.message  # type: Message
-    print(message)
     print("Received file from " + message.from_user.username)
     update.message.reply_text("Please wait, processing...", parse_mode=ParseMode.MARKDOWN,
                               disable_web_page_preview=True)
@@ -81,6 +80,7 @@ def execute(bot, update):
 
 
 print("Aye Aye, spinning up TELEGRAM bot")
+print("TOKEN= "+os.getenv("apikey"))
 init()
 keepUp = True
 while keepUp:
